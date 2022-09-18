@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.section-container-general {
+
+
+    width: 600px;
+    border: 1px solid blue;
+}
+
+h1 {
+    background: linear-gradient(to right, #6afd30, #6835f3);
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    padding: 5px;
+    text-align: center;
+}
+
+.formulario {
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.add-btn {
+    background: linear-gradient(to right, #6afd30, #6835f3);
+    border: 1px solid red;
+    border-radius: 10px;
+
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-number {
+    padding: 6px;
+}
+
+.input-number::placeholder {
+    text-align: center;
+}
+
+button {
+    padding: 8px;
+}
+
+.text-advertencia {
+    padding: 5px;
+    color: red;
+
+}
+
+.text {
+    padding: 5px;
+    color: green;
+}
+
+.text:hover {
+    color: red;
+}
+
+.text-nombre {
+    color: green;
+    text-align: center;
+}
+
+.text-ingrediente {
+    color: yellow;
+    text-align: center;
+}
+
+.text-precio {
+    color: red;
+    text-align: center;
+
+}
+
+.pizza {
+    padding: 20px;
+    width: 300px;
+}
+
+.result-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    padding: 20px;
+    width: 300px;
+}
